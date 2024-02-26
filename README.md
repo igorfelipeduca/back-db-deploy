@@ -9,16 +9,16 @@
 
 ## Cloud options
 
-- [ ] Render
+- [x] Render
 - [ ] Railway
 - [ ] Fly.io
 
 ## Render
 
-- [ ] Create the postgres database
-- [ ] Deploy the server (via github)
-- [ ] Create the environment variables
-- [ ] Connecting to the database
+- [x] Create the postgres database
+- [x] Deploy the server (via github)
+- [x] Create the environment variables
+- [x] Connecting to the database
 
 ## Railway
 
