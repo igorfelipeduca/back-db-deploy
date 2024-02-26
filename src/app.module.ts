@@ -4,16 +4,22 @@ import { AppService } from './app.service';
 import { UsersModule } from './users/users.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 
+import * as dotenv from 'dotenv';
+
+dotenv.config();
+
 @Module({
   imports: [
     UsersModule,
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'dpg-cneh3e8l5elc73dbflp0-a.oregon-postgres.render.com',
-      port: 5432,
-      username: 'test_video_render_database_user',
-      password: 'aDqRdFlUEsldqcgnsciqcsotlpSUVV0v',
-      database: 'test_video_render_database',
+      host: process.env.DATABASE_HOST,
+      port: process.env.DATABASE_PORT
+        ? parseInt(process.env.DATABASE_PORT)
+        : 5432,
+      username: process.env.DATABASE_USER,
+      password: process.env.DATABASE_PASSWORD,
+      database: process.env.DATABASE_NAME,
       entities: [],
       synchronize: true,
       autoLoadEntities: true,
