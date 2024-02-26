@@ -16,8 +16,24 @@
 ## Render
 
 - [ ] Create the postgres database
-- [ ] Deploy the server
+- [ ] Deploy the server (via github)
 - [ ] Create the environment variables
+- [ ] Connecting to the database
+
+## Railway
+
+- [ ] Provide database
+- [ ] Deploy the server (via github)
+- [ ] Create the environment variables
+- [ ] Connecting to the database
+
+## Supabase
+
+- [ ] Create the project
+- [ ] Creating the database
+- [ ] Creating the database tables
+- [ ] Undestanding RLS
+    - [ ] Creating the RLS rules
 - [ ] Connecting to the database
 
 ## Start the NestJs project
