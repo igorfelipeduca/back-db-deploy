@@ -22,19 +22,19 @@
 
 ## Railway
 
-- [ ] Provide database
-- [ ] Deploy the server (via github)
-- [ ] Create the environment variables
-- [ ] Connecting to the database
+- [x] Provide database
+- [x] Deploy the server (via github)
+- [x] Create the environment variables
+- [x] Connecting to the database
 
 ## Supabase
 
-- [ ] Create the project
-- [ ] Creating the database
-- [ ] Creating the database tables
-- [ ] Undestanding RLS
-    - [ ] Creating the RLS rules
-- [ ] Connecting to the database
+- [x] Create the project
+- [x] Creating the database
+- [x] Creating the database tables
+- [x] Undestanding RLS
+    - [x] Creating the RLS policies
+- [x] Connecting to the database
 
 ## Start the NestJs project
 
