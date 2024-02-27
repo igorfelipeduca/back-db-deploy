@@ -23,6 +23,7 @@ dotenv.config();
       entities: [],
       synchronize: true,
       autoLoadEntities: true,
+      ssl: true,
     }),
   ],
   controllers: [AppController],
